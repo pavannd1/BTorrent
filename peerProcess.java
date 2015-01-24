@@ -136,7 +136,7 @@ public class peerProcess {
 					continue;
 
 				} else if (otherPeer > 0) {
-					System.out.println(" here akshay!!");
+					System.out.println(" here pavan!!");
 					// Waiting until other peers are
 					// ready
 					try {
@@ -146,7 +146,7 @@ public class peerProcess {
 					}
 					Thread t1 = new Thread(new Runnable() {
 						public void run() {
-							System.out.println(" here akshay 12!!");
+							System.out.println(" here pavan 12!!");
 							Socket bindingSocket = null;
 							try {
 								// Create new binding socket for the other peer
@@ -424,7 +424,7 @@ public class peerProcess {
 								}
 								// byte[] rx = new byte[10000];
 								byte[] rx;
-								System.out.println("akuuu size is "
+								System.out.println("the size is "
 										+ recievedHandShake.getBytes());
 								rx = recievedHandShake.getBytes();
 
